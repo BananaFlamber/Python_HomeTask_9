@@ -49,7 +49,7 @@ def defend(cell_1, cell_2, posDef):
     if cell_1 == playerSymbol and cell_2 == playerSymbol:
         posDef = botSymbol
 
-API_TOKEN = '5980890864:AAEvYO5STRtviJKf1IJyCRHZA2fKvG3IlzY'
+API_TOKEN = ''
 
 bot = telebot.TeleBot(API_TOKEN)
 
